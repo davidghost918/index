@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+}
+.form-container {
+    margin-right: 20px;
+}
+.card-preview {
+    border: 1px solid #000;
+    width: 300px;
+    height: 180px;
+    padding: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    background-color: #f4f4f4;
+    border-radius: 15px;
+}
+.card-preview .bank-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+.card-preview .card-number {
+    font-size: 18px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+.card-preview .cardholder-name {
+    font-size: 14px;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+.card-preview .expiry-date {
+    font-size: 14px;
+    position: absolute;
+    bottom: 20px;
+    right: 100px;
+}
+.card-preview .payment-system {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.card-preview img {
+    max-width: 100px;
+    max-height: 30px;
+    margin-bottom: 10px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
